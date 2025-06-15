@@ -1,0 +1,22 @@
+FROM mcr.microsoft.com/devcontainers/python:3.10-bullseye
+
+# System dependencies for audio/video processing
+RUN apt-get update && apt-get install -y \
+    ffmpeg \
+    sox \
+    espeak \
+    espeak-data \
+    libsndfile1-dev \
+    portaudio19-dev \
+    libasound2-dev \
+    wget \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create working directories
+RUN mkdir -p /workspace/data/{audio,video,cache} \
+    && mkdir -p /workspace/assets/{faces,diagrams,gameplay,fonts} \
+    && mkdir -p /workspace/voices
+
+# Set working directory
+WORKDIR /workspace

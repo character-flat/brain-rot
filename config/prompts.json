@@ -1,0 +1,33 @@
+{
+  "keyword_triggers": {
+    "docker": "docker.png",
+    "kubernetes": "k8s.png", 
+    "api": "api.png",
+    "microservices": "microservices.png",
+    "database": "database.png",
+    "cloud": "cloud.png",
+    "devops": "devops.png",
+    "python": "python.png",
+    "javascript": "javascript.png",
+    "react": "react.png"
+  },
+  
+  "face_positions": {
+    "peter": {
+      "x": 50,
+      "y": 150,
+      "size": 256
+    },
+    "stewey": {
+      "x": 824,
+      "y": 150, 
+      "size": 256
+    }
+  },
+  
+  "diagram_positions": {
+    "center": {"x": 540, "y": 960},
+    "left": {"x": 270, "y": 960},
+    "right": {"x": 810, "y": 960}
+  }
+}

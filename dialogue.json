@@ -1,0 +1,14 @@
+[
+  {
+    "speaker": "peter",
+    "text": "Hey Stewie, let me explain Docker containers!", 
+    "start": 0,
+    "end": 3
+  },
+  {
+    "speaker": "stewey",
+    "text": "Fascinating! How do they work exactly?",
+    "start": 3.5, 
+    "end": 6
+  }
+]
